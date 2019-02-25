@@ -12,10 +12,12 @@ Adafruit RGBmatrixPanel Controller using Arduino Uno
 1. Open Serial monitor
 2. Enter mode number
     * Mode description
+    
         |  Mode number  |     Mode                              |
         | :-----------: | -----------                           |
         |       1       | Fill all(32x32) pixels in same color  |
         |       2       | Fill one pixel that selected          |
+        
 3. Enter required number
     * Mode 1\
         Enter color number\
@@ -24,12 +26,14 @@ Adafruit RGBmatrixPanel Controller using Arduino Uno
         Enter position(x,y) and color number\
         ```ex) 3 4 1```
     * Color description
+    
         |  Color number  |     Color     |
         | :-----------: | :-----------:  |
         |       1       |  Red |
         |       2       |  Green |
         |       3       |  Blue |
         |       4       |  White |
+        
 4. Return to **number 2**
 
 ## 2. Function Description
